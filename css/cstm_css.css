@@ -1,0 +1,74 @@
+/* ========================================================================
+  Cstm
+ ========================================================================== */
+/* cstm title moji */ 
+.cstm-title-font {
+color: #6d2f43;
+font-family: 'Noto Serif SC', serif; font-size: 46px; 
+-moz-text-shadow: 0px 0px 18px #c9849a;
+-webkit-text-shadow: 0px 0px 18px #c9849a;
+-ms-text-shadow: 0px 0px 18px #c9849a;
+text-shadow: 0px 0px 18px #c9849a;
+opacity:0.7;
+}
+/* cstm h2 */ 
+.cstm-top-font-h2 {
+color: rgb(109, 47, 67,0.8);
+font-family: 'Noto Serif SC', serif; font-size: 25px;
+}
+/* cstm h3 */ 
+.cstm-top-font-h3 {
+color: rgb(109, 47, 67,0.8);
+font-family: 'Noto Serif SC', serif; font-size: 20px;
+}
+/* cstm h5 bold */ 
+.cstm-top-font-h5-bold {
+color: rgb(109, 47, 67,0.6);
+font-family: 'Noto Serif SC', serif; font-size: 15px;
+font-weight:bold
+}
+/* cstm h5 */
+.cstm-top-font-h5 {
+color: rgb(109, 47, 67,0.8);
+font-family: 'Noto Serif SC', serif; font-size: 15px; 
+}
+/* cstm h7 */
+.cstm-top-font-h7 {
+color: rgb(109, 47, 67,0.5);
+font-family: 'Noto Serif SC', serif; font-size: 5px; 
+}
+/* cstm tabletest*/
+.cstm-table-test{
+border:#333 solid 0px;
+}
+/* cstm background*/
+.cstm-background {
+background-color:rgb(109, 47, 67,0.1);
+color: rgb(109, 47, 67,0.8);
+font-family: 'Noto Serif SC', serif; font-size: 8px; 
+}
+
+/* ========================================================================
+  Add slidenav
+ ========================================================================== */
+.uk-slidenav {
+  padding: 5px 10px;
+  color: rgb(255, 237, 237, 0.6);
+  transition: color 0.1s ease-in-out;
+}
+/* Hover + Focus */
+.uk-slidenav:hover,
+.uk-slidenav:focus {
+  color: rgb(255, 237, 237,0.8);
+  outline: none;
+}
+/* OnClick */
+.uk-slidenav:active {
+  color: rgb(255, 237, 237, 0.5);
+}
+/* ========================================================================
+  Add dialog
+ ========================================================================== */
+.uk-modal-dialog-add {
+  width: 750px;
+}

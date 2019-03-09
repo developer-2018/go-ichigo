@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <html lang="ja">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--IE対策：互換表示させない。-->
+    <title>GO ICHIGO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- css-componentsここから -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:200" rel="stylesheet">
+    <link rel="stylesheet" href="css/cstm_css.css" type="text/css">
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:200" rel="stylesheet">
+</head>
+
+<body>
+    <!--bodyここから-->
+    <!--head-->
+    <header>
+        <div class="uk-width-1-1 cstm-background">
+        </div>
+    </header>
+    <!--image-->
+    <div class="uk-animation-fade uk-background-primary uk-position-relative uk-visible-toggle" uk-slideshow="autoplay: true; autoplay-interval: 10000; min-height: 240; max-height: 270;">
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/background06.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="images/background05.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="images/background03.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="images/background04.jpg" alt="" uk-cover>
+            </li>
+        </ul>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    </div>
+    <!--コンテンツ　ここから-->
+    <div>
+        <!--div 1/4-->
+        <div uk-grid>
+            <div class="uk-width-1-1 uk-padding-small uk-padding-remove-bottom cstm-title-font cstm-table-test">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;渡辺いちごハウス
+                <img src="images/logo.jpg" alt="" width="70" height="70">
+            </div>
+        </div>
+        <!--div 2/4-->
+        <div class="uk-animation-fade uk-width-1-1 uk-padding uk-padding-remove-vertical cstm-table-test">
+            <p class="cstm-top-font-h3">
+                美味しいいちごになるように、食べてくれる人を思って、一粒一粒考えて作っています。
+            </p>
+            <p class="cstm-top-font-h5">
+                埼玉県比企郡吉見町の沢山のいちご農園に囲まれ、当ハウスは活動しています。
+                <br> 甘さと張りのよい苺にこだわり、朝早くから一番いい時期のいちごを卸しています。
+                <br> 食べてくれる人を思って、見た目も味も良い物を一粒一粒作っています。
+            </p>
+        </div>
+        <!--div 3/4-->
+        <div class="uk-animation-fade uk-padding uk-padding-remove-vertical cstm-table-test">
+            <!--モーダル1-->
+            <button class="uk-button uk-button-default uk-button-large cstm-top-font-h5">
+                <span class="uk-margin-small-right" uk-icon="icon:world; ratio: 0.8"></span>
+                <a href="#modal-overflow-1" uk-toggle class="uk-button uk-button-text">
+                    当ハウスのこだわり</a>
+            </button>
+            <div id="modal-overflow-1" class="uk-modal-full" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                    <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                        <div class="uk-background-cover" style="background-image: url('images/background06.jpg');" uk-height-viewport></div>
+                        <div class="uk-padding-large">
+                            <p class="cstm-top-font-h2">当ハウスのこだわり</p>
+                            <p class="cstm-top-font-h3">
+                                ○埼玉県内の有数ないちご産地で作っています</p>
+                            <p class="cstm-top-font-h5">埼玉県比企郡吉見町はイチゴの生産量が県内一を誇っています。 吉見町のいちごは味と品質はどこよりも高いこだわりを持っており、 日々遠方から沢山の方が買いに来て頂いています。 この産地で、沢山の農家に囲まれ、当ハウスは日々切磋琢磨しています。
+                            </p>
+                            <p class="cstm-top-font-h3">
+                                ○甘いいちごを選んでいます</p>
+                            <p class="cstm-top-font-h5">甘いいちごは果物の中でも衝撃に弱いので、 表面が張りがあるあまおうという品種を選んでいます。 特に、衝撃に弱いいちごの先端には気を付け、見栄えが良くても 全面に張りのない苺は取り除いています。
+                                また、あまおうは糖度11～14度でメロンと同じくらい甘いいちごです。
+                            </p>
+                            <p class="cstm-top-font-h3">○一番良い時期に収穫しています。</p>
+                            <p class="cstm-top-font-h5">当ハウスのいちごの主な出荷時期は12月～3月です。 その中でも12月の繁忙期には朝2:00から梱包作業を開始します。 それもいちごの痛まない早朝に出荷して、一番美味しい時に 食べてもらいたいからなのです。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--モーダル-->
+            <!--モーダル2-->
+            <button class="uk-button uk-button-default uk-button-large cstm-top-font-h5">
+                <span class="uk-margin-small-right" uk-icon="icon:home; ratio: 0.8"></span>
+                <a href="#modal-overflow-2" uk-toggle class="uk-button uk-button-text">
+                    農主からひとこと</a>
+            </button>
+            <div id="modal-overflow-2" uk-modal>
+                <div class="uk-modal-dialog cstm-table-test">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <p class="cstm-top-font-h2">農主からひとこと</p>
+                    </div>
+                    <div class="uk-modal-body" uk-overflow-auto>
+                        <p class="cstm-top-font-h3">美味しかったよと言われることが
+                            <br>何よりも励みになります。</p>
+                        <div class="uk-text-center">
+                            <img data-src="images/person.JPG" width="500" height="500" alt="" uk-img>
+                        </div>
+                        <p class="cstm-top-font-h5 uk-text-break">
+                            果物を育てるこだわりは、無いとも全てにこだわっているとも考えます。 甘み・酸味・香り・硬さ・色・形など様々な要素を高いレベルでバランス良く作れるよう、 土作り、水やり、肥料など毎年、工夫しながら栽培しています。 私たちが栽培している苺は必ず食べないといけない食べ物ではありません。
+                            しかし、苺がある事で、家族団らんや笑顔、会話が生まれる･･･ そんな幸せな時間を作れるよう質の高い苺、安全な苺を責任をもって作ろうと考えています。
+                            <br>
+                            <br>天候にはいつも苦労させられます。植物の状態をみながら作業を行うベストのタイミングを見極めたり、 水やり、液肥の具合を変えたりと大変です。楽をする事は簡単です。苦労した事が結果に繋がるとも限りません。
+                            それでもあえて険しい道を選び努力していく事が自分達の生き方です。
+                            <br>
+                            <br>いつも苺を食べて頂きありがとうございます。美味しかったよと言われる事が何よりも励みになります。
+                            <p class="cstm-top-font-h5-bold uk-text-break">
+                                埼玉県比企郡　吉見町　農主　渡辺光春
+                            </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--モーダル-->
+            <!--モーダル3-->
+            <button class="uk-button uk-button-default uk-button-large cstm-top-font-h5">
+                <span class="uk-margin-small-right" uk-icon="icon:calendar; ratio: 0.9"></span>
+                <a href="#modal-overflow-3" uk-toggle class="uk-button uk-button-text">
+                    アクセス</a>
+            </button>
+            <div id="modal-overflow-3" uk-modal>
+                <div class="uk-modal-dialog uk-modal-dialog-add">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <p class="cstm-top-font-h3">アクセス</p>
+                    </div>
+                    <div class="uk-modal-body" uk-overflow-auto>
+                        <p class="cstm-top-font-h3">渡辺いちごハウス</p>
+                        <p class="cstm-top-font-h5">
+                            〒355-0137 埼玉県比企郡吉見町久保田１７６２−１</p>
+                        <div class="uk-text-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4244.903845455631!2d139.45686360825894!3d36.03639476195196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb41a7c65e8f415db!2z77yq77yh5Z-8546J5Lit5aSuIOWQieimi-i-sueUo-eJqeebtOWjsuaJgA!5e0!3m2!1sja!2sjp!4v1552112757172"
+                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <p class="cstm-top-font-h5">
+                            TEL：090-1318-XXXX
+                            <br> E-MAIL：XXX@gmail.com
+                            <br> 代表： 渡辺光春
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--モーダル-->
+            <!--アイコン-->
+            &nbsp;&nbsp;
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+            <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+            <a href="" class="uk-icon-button" uk-icon="google-plus"></a>
+        </div>
+        <!--div 4/4-->
+        <div class="uk-width-large-1-1 uk-padding-remove-vertical uk-text-center footer-copyright uk-position-bottom cstm-table-test cstm-background">
+            Copyright&copy;2019 watanabe All Rights Reserved.
+        </div>
+
+        <!--コンテンツ　ここまで-->
+        <!--menu
+    <ul>
+        <div>
+            <div class="uk-section" uk-grid>
+                <div class="uk-card-default uk-card-body uk-card-hover uk-padding-small">
+                    <a class="twitter-timeline" data-lang="ja" data-width="450" data-height="300" data-link-color="#2B7BB9" href="https://twitter.com/TwitterSupport?ref_src=twsrc%5Etfw">Tweets by TwitterSupport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </ul>
+    -->
+        <!--bodyここまで-->
+</body>
+
+</html>
