@@ -13,28 +13,33 @@ opacity:0.7;
 }
 /* cstm h2 */ 
 .cstm-top-font-h2 {
-color: rgb(109, 47, 67,0.8);
+color: #6d2f43;
+opacity:0.8;
 font-family: 'Noto Serif SC', serif; font-size: 25px;
 }
 /* cstm h3 */ 
 .cstm-top-font-h3 {
-color: rgb(109, 47, 67,0.8);
+color: #6d2f43;
+opacity:0.8;
 font-family: 'Noto Serif SC', serif; font-size: 20px;
 }
 /* cstm h5 bold */ 
 .cstm-top-font-h5-bold {
-color: rgb(109, 47, 67,0.6);
+color: #6d2f43;
+opacity:0.8;
 font-family: 'Noto Serif SC', serif; font-size: 15px;
 font-weight:bold
 }
 /* cstm h5 */
 .cstm-top-font-h5 {
-color: rgb(109, 47, 67,0.8);
+color: #6d2f43;
+opacity:0.8;
 font-family: 'Noto Serif SC', serif; font-size: 15px; 
 }
 /* cstm h7 */
 .cstm-top-font-h7 {
-color: rgb(109, 47, 67,0.5);
+color: #6d2f43;
+opacity:0.5;
 font-family: 'Noto Serif SC', serif; font-size: 5px; 
 }
 /* cstm tabletest*/
@@ -43,28 +48,27 @@ border:#333 solid 0px;
 }
 /* cstm background*/
 .cstm-background {
-background-color:rgb(109, 47, 67,0.1);
-color: rgb(109, 47, 67,0.8);
+background-color:rgba(109,47,67,0.1);
+color: rgba(109,47,67,0.7);
 font-family: 'Noto Serif SC', serif; font-size: 8px; 
 }
-
 /* ========================================================================
   Add slidenav
  ========================================================================== */
 .uk-slidenav {
   padding: 5px 10px;
-  color: rgb(255, 237, 237, 0.6);
+  color: rgba(255, 237, 237, 0.6);
   transition: color 0.1s ease-in-out;
 }
 /* Hover + Focus */
 .uk-slidenav:hover,
 .uk-slidenav:focus {
-  color: rgb(255, 237, 237,0.8);
+  color: rgba(255, 237, 237,0.8);
   outline: none;
 }
 /* OnClick */
 .uk-slidenav:active {
-  color: rgb(255, 237, 237, 0.5);
+  color: rgba(255, 237, 237, 0.5);
 }
 /* ========================================================================
   Add dialog
