@@ -52,6 +52,14 @@ background-color:rgba(109,47,67,0.1);
 color: rgba(109,47,67,0.7);
 font-family: 'Noto Serif SC', serif; font-size: 8px; 
 }
+/* cstm iframe*/
+.uk-modal-full {
+  max-height: 100%;
+}
+.cstm-iframe{
+width:100%;
+height: 90vh;
+}
 /* ========================================================================
   Add slidenav
  ========================================================================== */
